@@ -1,0 +1,78 @@
+.homeContainer {
+    height: 80vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeSubContainer {
+    background-color: #A2000C;
+    padding: 60px;
+    border-radius: 20px;
+    position: relative;
+    height: 60%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.homeTitle{
+    color: #fff;
+    font-size: 40px;
+}
+.homeDesc{
+    color: #fff;
+    font-size: 18px;
+    font-family: serif;
+}
+.homeDesc_01{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 12px;
+}
+.logo{
+height: 70%;
+}
+@media screen and (max-width: 900px) {
+    .logo {
+        height: 30%;
+    }
+    .homeSubContainer {
+        background-color: #A2000C;
+        padding: 20px;
+        border-radius: 20px;
+        position: relative;
+        height: 80%;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        height: 15%;
+    }
+    .homeSubContainer {
+        background-color: #A2000C;
+        padding: 20px;
+        border-radius: 20px;
+        position: relative;
+        height: 90%;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .homeDesc{
+        color: #fff;
+        font-size: 14px;
+        font-family: serif;
+    }
+    .homeDesc_01{
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 12px;
+    }
+}
